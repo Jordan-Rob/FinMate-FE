@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Illustration from '../MoneySaving.svg'
+import Lottie from 'lottie-web'
+import Animation from '../animations/drawkit-grape-animation-2-LOOP.json'
 
 const Home = () => {
+    useEffect(() => {
+        Lottie.loadAnimation({
+            container: document.querySelector('#home-illustration'),
+            animationData:Animation
+        })
+    }, [])
+
     return (
         <div className="container mt-5">
           <div className="row" >
@@ -13,8 +22,8 @@ const Home = () => {
                       and plan your finances, encouraging you to save money.    
                   </p>
               </div>
-              <div className="col-md-6">
-                <img style={{ height: "400px" }} src={Illustration} />
+              <div className="col-md-6"  >
+                <div style={{ height: "500px" }} id='home-illustration'></div>
               </div>
           </div>
         </div>
