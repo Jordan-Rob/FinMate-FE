@@ -3,6 +3,7 @@ import pattern from '../static/patternpad.svg'
 import Lottie from 'lottie-web'
 import Animation from '../animations/drawkit-grape-animation-2-LOOP.json'
 import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
 
 const Home = () => {
     useEffect(() => {
@@ -20,7 +21,7 @@ const Home = () => {
                         <h1 className=''>Welcome to FinMate</h1>
                         <p>
                             Your online financial assistant. Make use of our platform <br/>
-                            to create and manage your Budgets, Monitor your expenditures <br/>
+                            to create and manage your budgets, monitor your expenditures <br/>
                             and plan your finances, encouraging you to save money.    
                         </p>
                         <div style={{ marginTop:'25px', }}>
@@ -38,7 +39,46 @@ const Home = () => {
                 <div className="row "  style={{ height:'580px', width:'100%' }}>
                     <div className="col-md-6 p-0" style={{ backgroundImage:`url(${pattern})` }}>
                     </div>
-                    <div className="col-md-6 p-0" style={{  background:'#fff'}}></div>
+                    <div className="col-md-6 p-0" style={{  background:'#fff'}}>
+                        <div className="container">
+                            <div classname="row">
+                                <div className="col-md-6">
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Title>Budget</Card.Title>
+                                            <Card.Text></Card.Text>
+                                        </Card.Body>
+                                    </Card>                                
+                                </div>
+                                <div className="col-md-6">
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Title>Budget</Card.Title>
+                                            <Card.Text></Card.Text>
+                                        </Card.Body>
+                                    </Card> 
+                                </div>
+                            </div>
+                            <div classname="row">
+                                <div className="col-md-6">
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Title>Budget</Card.Title>
+                                            <Card.Text></Card.Text>
+                                        </Card.Body>
+                                    </Card> 
+                                </div>
+                                <div className="col-md-6">
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Title>Budget</Card.Title>
+                                            <Card.Text></Card.Text>
+                                        </Card.Body>
+                                    </Card> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>  
