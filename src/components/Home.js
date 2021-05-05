@@ -35,44 +35,57 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="mt-5 pt-5" >
-                <div className="row "  style={{ height:'580px', width:'100%' }}>
+            
+            <div className="container-fluid mt-5 pt-5" >
+                <div className="row"  style={{ height:'550px'}}>
                     <div className="col-md-6 p-0" style={{ backgroundImage:`url(${pattern})` }}>
                     </div>
                     <div className="col-md-6 p-0" style={{  background:'#fff'}}>
                         <div className="container">
-                            <div classname="row">
-                                <div className="col-md-6">
+                            <div className="row">
+                                <div className="col-md-6 px-2 mx-0 ">
                                     <Card>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
-                                            <Card.Text></Card.Text>
+                                            <Card.Text>
+                                                Some quick example text to build on the card title and make up the bulk of
+                                                the card's content.
+                                            </Card.Text>
                                         </Card.Body>
                                     </Card>                                
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-md-6 px-2 mx-0 ">
                                     <Card>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
-                                            <Card.Text></Card.Text>
+                                            <Card.Text>
+                                                Some quick example text to build on the card title and make up the bulk of
+                                                the card's content.
+                                            </Card.Text>
                                         </Card.Body>
                                     </Card> 
                                 </div>
                             </div>
-                            <div classname="row">
-                                <div className="col-md-6">
+                            <div className="row">
+                                <div className="col-md-6 px-2 mx-0 ">
                                     <Card>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
-                                            <Card.Text></Card.Text>
+                                            <Card.Text>
+                                                Some quick example text to build on the card title and make up the bulk of
+                                                the card's content.
+                                            </Card.Text>
                                         </Card.Body>
                                     </Card> 
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-md-6 px-2 mx-0 ">
                                     <Card>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
-                                            <Card.Text></Card.Text>
+                                            <Card.Text>
+                                                Some quick example text to build on the card title and make up the bulk of
+                                                the card's content.
+                                            </Card.Text>
                                         </Card.Body>
                                     </Card> 
                                 </div>
