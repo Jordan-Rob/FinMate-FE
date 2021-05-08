@@ -111,7 +111,7 @@ const Home = () => {
                             <div style={{ height: "450px" }} id='bar-graph'></div>
                         </div>
                         <div className='col-md-6' style={{ textAlign:'center', paddingTop:'70px' }}>
-                            <h3>Viuslize Your Finance data</h3>
+                            <h3>Viuslize Your Financial data</h3>
                             <p style={{ paddingTop:'40px' }}>
                                 Our platform allows you to easily visualize your financial data<br/> 
                                 in the form of bar graphs, pie charts, line charts and easily  <br/>
@@ -123,6 +123,53 @@ const Home = () => {
                                 spending so as to meet your budgetary goals and save money. 
 
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style={{ height:'500px' }}>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-md-3'>
+                            <Card>
+                                <Card.Body>
+                                    <Card.Title></Card.Title>
+                                    <Card.Text>
+                                        
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className='col-md-3'>
+                            <Card>
+                                <Card.Body>
+                                    <Card.Title></Card.Title>
+                                    <Card.Text>
+                                        
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className='col-md-3'>
+                            <Card>
+                                <Card.Body>
+                                    <Card.Title></Card.Title>
+                                    <Card.Text>
+                                        
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className='col-md-3'>
+                            <Card>
+                                <Card.Body>
+                                    <Card.Title></Card.Title>
+                                    <Card.Text>
+                                        
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
                         </div>
                     </div>
                 </div>
