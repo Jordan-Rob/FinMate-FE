@@ -129,44 +129,48 @@ const Home = () => {
             </div>
 
             <div style={{ height:'500px' }}>
-                <div className='container'>
-                    <div className='row'>
+                <div className='container' style={{ paddingTop:'100px' }}>
+                    <div className='row' >
                         <div className='col-md-3'>
-                            <Card>
+                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px' }}>
                                 <Card.Body>
-                                    <Card.Title></Card.Title>
+                                    <Card.Title>Create Budget</Card.Title>
                                     <Card.Text>
-                                        
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div className='col-md-3'>
-                            <Card>
+                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px' }}>
                                 <Card.Body>
-                                    <Card.Title></Card.Title>
+                                    <Card.Title>Add Expenditures</Card.Title>
                                     <Card.Text>
-                                        
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div className='col-md-3'>
-                            <Card>
+                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px' }}>
                                 <Card.Body>
-                                    <Card.Title></Card.Title>
+                                    <Card.Title>Visualize Data</Card.Title>
                                     <Card.Text>
-                                        
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
                         </div>
                         <div className='col-md-3'>
-                            <Card>
+                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px' }}>
                                 <Card.Body>
-                                    <Card.Title></Card.Title>
+                                    <Card.Title>Follow Tips</Card.Title>
                                     <Card.Text>
-                                        
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
