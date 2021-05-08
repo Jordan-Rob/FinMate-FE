@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import pattern from '../static/patternpad.svg'
 import Lottie from 'lottie-web'
 import Animation from '../animations/drawkit-grape-animation-2-LOOP.json'
+import Bargraph from '../animations/18841-bar-graph.json'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
@@ -10,6 +11,13 @@ const Home = () => {
         Lottie.loadAnimation({
             container: document.querySelector('#home-illustration'),
             animationData:Animation
+        })
+    }, [])
+
+    useEffect(() => {
+        Lottie.loadAnimation({
+            container: document.querySelector('#bar-graph'),
+            animationData:Bargraph
         })
     }, [])
 
@@ -91,6 +99,19 @@ const Home = () => {
                                     </Card> 
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style={{ background:'#fff', paddingTop:'65px', paddingBottom:'55px' }}>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-md-6'>
+                            <div style={{ height: "450px" }} id='bar-graph'></div>
+                        </div>
+                        <div className='col-md-6'>
+
                         </div>
                     </div>
                 </div>
