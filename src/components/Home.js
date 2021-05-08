@@ -45,7 +45,7 @@ const Home = () => {
                         <div className="container"  style={{ position:'absolute', top:'20%', paddingLeft:'120px' }}>
                             <div className="row" style={{ marginBottom:'20px' }}>
                                 <div className="col-md-4 px-2 mx-0 ">
-                                    <Card>
+                                    <Card style={{ height:'200px', border:'none', borderRadius:'15px' }}>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
                                             <Card.Text>
@@ -56,7 +56,7 @@ const Home = () => {
                                     </Card>                                
                                 </div>
                                 <div className="col-md-6 px-2 mx-0 ">
-                                    <Card>
+                                    <Card style={{ height:'200px', border:'none', borderRadius:'15px' }}>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
                                             <Card.Text>
@@ -69,7 +69,7 @@ const Home = () => {
                             </div>
                             <div className="row">
                                 <div className="col-md-6 px-2 mx-0 ">
-                                    <Card>
+                                    <Card style={{ height:'200px', border:'none', borderRadius:'15px' }}>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
                                             <Card.Text>
@@ -80,7 +80,7 @@ const Home = () => {
                                     </Card> 
                                 </div>
                                 <div className="col-md-4 px-2 mx-0 ">
-                                    <Card>
+                                    <Card style={{ height:'200px', border:'none', borderRadius:'15px' }}>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
                                             <Card.Text>
