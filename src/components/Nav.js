@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 
 const Nav = () => {
     return (
-        <div >
-          <nav  className=" navbar navbar-expand-lg navbar-light px-0 " style={{ background:'#FEEEE2'}}>
+        <div  >
+          <nav  className=" navbar navbar-expand-lg navbar-light px-0 " style={{ background:'#fff' }}>
             <a className="navbar-brand ml-5" href="#">
                 FinMate
             </a>
