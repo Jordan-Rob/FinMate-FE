@@ -104,14 +104,25 @@ const Home = () => {
                 </div>
             </div>
 
-            <div style={{ background:'#fff', paddingTop:'65px', paddingBottom:'55px' }}>
+            <div style={{ background:'#fff', paddingTop:'105px', paddingBottom:'55px' }}>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-6'>
                             <div style={{ height: "450px" }} id='bar-graph'></div>
                         </div>
-                        <div className='col-md-6'>
+                        <div className='col-md-6' style={{ textAlign:'center', paddingTop:'70px' }}>
+                            <h3>Viuslize Your Finance data</h3>
+                            <p style={{ paddingTop:'40px' }}>
+                                Our platform allows you to easily visualize your financial data<br/> 
+                                in the form of bar graphs, pie charts, line charts and easily  <br/>
+                                establish trends in your expenditures, tell if you are spending<br/> 
+                                within your budget or exceeding it.<br/>
+                            </p>
+                            <p>
+                                This translates to you taking steps to make adjustments in your <br/>
+                                spending so as to meet your budgetary goals and save money. 
 
+                            </p>
                         </div>
                     </div>
                 </div>
