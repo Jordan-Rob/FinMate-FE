@@ -104,7 +104,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div style={{ background:'#fff', paddingTop:'105px', paddingBottom:'55px' }}>
+            <div style={{ background:'#fff', paddingTop:'105px', paddingBottom:'105px' }}>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-6'>
@@ -132,7 +132,7 @@ const Home = () => {
                 <div className='container' style={{ paddingTop:'100px' }}>
                     <div className='row' >
                         <div className='col-md-3'>
-                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px' }}>
+                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Create Budget</Card.Title>
                                     <Card.Text>
@@ -143,7 +143,7 @@ const Home = () => {
                             </Card>
                         </div>
                         <div className='col-md-3'>
-                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px' }}>
+                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Add Expenditures</Card.Title>
                                     <Card.Text>
@@ -154,7 +154,7 @@ const Home = () => {
                             </Card>
                         </div>
                         <div className='col-md-3'>
-                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px' }}>
+                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Visualize Data</Card.Title>
                                     <Card.Text>
@@ -165,7 +165,7 @@ const Home = () => {
                             </Card>
                         </div>
                         <div className='col-md-3'>
-                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px' }}>
+                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Follow Tips</Card.Title>
                                     <Card.Text>
