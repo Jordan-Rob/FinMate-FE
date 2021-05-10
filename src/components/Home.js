@@ -3,6 +3,10 @@ import pattern from '../static/patternpad.svg'
 import Lottie from 'lottie-web'
 import Animation from '../animations/drawkit-grape-animation-2-LOOP.json'
 import Bargraph from '../animations/18841-bar-graph.json'
+import One from '../static/1.svg'
+import Two from '../static/2.svg'
+import Three from '../static/3.svg'
+import Four from '../static/4.svg'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
@@ -128,10 +132,13 @@ const Home = () => {
                 </div>
             </div>
 
-            <div style={{ height:'500px' }}>
+            <div style={{ height:'580px' }}>
                 <div className='container' style={{ paddingTop:'100px' }}>
                     <div className='row' >
                         <div className='col-md-3'>
+                            <div style={{ textAlign:"center", marginBottom:"40px"  }}>
+                                <img style={{ height:"50px" }} src={One} />
+                            </div>
                             <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Create Budget</Card.Title>
@@ -143,6 +150,9 @@ const Home = () => {
                             </Card>
                         </div>
                         <div className='col-md-3'>
+                            <div style={{ textAlign:"center", marginBottom:"40px" }}>
+                                <img style={{ height:"50px" }} src={Two} />
+                            </div>
                             <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Add Expenditures</Card.Title>
@@ -154,6 +164,9 @@ const Home = () => {
                             </Card>
                         </div>
                         <div className='col-md-3'>
+                            <div style={{ textAlign:"center", marginBottom:"40px" }}>
+                                <img style={{ height:"50px" }} src={Three} />
+                            </div>
                             <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Visualize Data</Card.Title>
@@ -165,6 +178,9 @@ const Home = () => {
                             </Card>
                         </div>
                         <div className='col-md-3'>
+                            <div style={{ textAlign:"center", marginBottom:"40px" }}>
+                                <img style={{ height:"50px" }} src={Four} />
+                            </div>
                             <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Follow Tips</Card.Title>
@@ -178,6 +194,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+
         </div>  
       );
 
