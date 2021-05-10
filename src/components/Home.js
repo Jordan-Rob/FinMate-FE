@@ -55,9 +55,9 @@ const Home = () => {
                     </div>
                     <div className="col-md-7 p-0" style={{ position:'relative' }}>
                         <div className="container"  style={{ position:'absolute', top:'20%', paddingLeft:'120px' }}>
-                            <div className="row" style={{ marginBottom:'20px' }}>
-                                <div className="col-md-4 px-2 mx-0 ">
-                                    <Card style={{ height:'200px', border:'none', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
+                            <div className="row" style={{ marginBottom:'50px' }}>
+                                <div className="col-md-4 px-2 mr-4 ">
+                                    <Card className="shadow" style={{ height:'200px', border:'none', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
                                             <Card.Text>
@@ -68,7 +68,7 @@ const Home = () => {
                                     </Card>                                
                                 </div>
                                 <div className="col-md-6 px-2 mx-0 ">
-                                    <Card style={{ height:'200px', border:'none', borderRadius:'15px', background:'#2C907F', color:'#fff' }}>
+                                    <Card className="shadow" style={{ height:'200px', border:'none', borderRadius:'15px', background:'#2C907F', color:'#fff' }}>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
                                             <Card.Text>
@@ -80,8 +80,8 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-md-6 px-2 mx-0 ">
-                                    <Card style={{ height:'200px', border:'none', borderRadius:'15px', background:'#057C68', color:'#fff' }}>
+                                <div className="col-md-6 px-2 mr-4 ">
+                                    <Card className="shadow" style={{ height:'200px', border:'none', borderRadius:'15px', background:'#057C68', color:'#fff' }}>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
                                             <Card.Text>
@@ -92,7 +92,7 @@ const Home = () => {
                                     </Card> 
                                 </div>
                                 <div className="col-md-4 px-2 mx-0 ">
-                                    <Card style={{ height:'200px', border:'none', borderRadius:'15px', background:'#F9B480', color:'#fff' }}>
+                                    <Card className="shadow" style={{ height:'200px', border:'none', borderRadius:'15px', background:'#F9B480', color:'#fff' }}>
                                         <Card.Body>
                                             <Card.Title>Budget</Card.Title>
                                             <Card.Text>
@@ -139,7 +139,7 @@ const Home = () => {
                             <div style={{ textAlign:"center", marginBottom:"40px"  }}>
                                 <img style={{ height:"50px" }} src={One} />
                             </div>
-                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
+                            <Card className="shadow" style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Create Budget</Card.Title>
                                     <Card.Text>
@@ -153,7 +153,7 @@ const Home = () => {
                             <div style={{ textAlign:"center", marginBottom:"40px" }}>
                                 <img style={{ height:"50px" }} src={Two} />
                             </div>
-                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
+                            <Card className="shadow" style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Add Expenditures</Card.Title>
                                     <Card.Text>
@@ -167,7 +167,7 @@ const Home = () => {
                             <div style={{ textAlign:"center", marginBottom:"40px" }}>
                                 <img style={{ height:"50px" }} src={Three} />
                             </div>
-                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
+                            <Card className="shadow" style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Visualize Data</Card.Title>
                                     <Card.Text>
@@ -181,7 +181,7 @@ const Home = () => {
                             <div style={{ textAlign:"center", marginBottom:"40px" }}>
                                 <img style={{ height:"50px" }} src={Four} />
                             </div>
-                            <Card style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
+                            <Card className="shadow" style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
                                 <Card.Body>
                                     <Card.Title>Follow Tips</Card.Title>
                                     <Card.Text>
