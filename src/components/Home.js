@@ -139,57 +139,49 @@ const Home = () => {
                             <div style={{ textAlign:"center", marginBottom:"40px"  }}>
                                 <img style={{ height:"50px" }} src={One} />
                             </div>
-                            <Card className="shadow" style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
-                                <Card.Body>
-                                    <Card.Title>Create Budget</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </div>
+                            <div>
+                            <h4>Create Budget</h4>
+                            <p>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </p>
+                            </div>
+                        </div>    
                         <div className='col-md-3'>
                             <div style={{ textAlign:"center", marginBottom:"40px" }}>
                                 <img style={{ height:"50px" }} src={Two} />
                             </div>
-                            <Card className="shadow" style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
-                                <Card.Body>
-                                    <Card.Title>Add Expenditures</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                            <div>
+                                <h4>Add Expenditures</h4>
+                                <p>
+                                   Some quick example text to build on the card title and make up the bulk of
+                                   the card's content.
+                                </p>
+                            </div>
                         </div>
                         <div className='col-md-3'>
                             <div style={{ textAlign:"center", marginBottom:"40px" }}>
                                 <img style={{ height:"50px" }} src={Three} />
                             </div>
-                            <Card className="shadow" style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
-                                <Card.Body>
-                                    <Card.Title>Visualize Data</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                            <div>
+                                <h4>Visualize Data</h4>
+                                <p>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </p>
+                            </div>
                         </div>
                         <div className='col-md-3'>
                             <div style={{ textAlign:"center", marginBottom:"40px" }}>
                                 <img style={{ height:"50px" }} src={Four} />
                             </div>
-                            <Card className="shadow" style={{ border:'none', height:'300px', width:'240px', marginLeft:'20px', borderRadius:'15px', background:'#F68F43', color:'#fff' }}>
-                                <Card.Body>
-                                    <Card.Title>Follow Tips</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                            <div>
+                                <h4>Follow Tips</h4>
+                                <p>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
