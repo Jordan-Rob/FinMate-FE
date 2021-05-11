@@ -134,25 +134,22 @@ const Home = () => {
 
             <div style={{ height:'580px' }}>
                 <div className='container' style={{ paddingTop:'100px' }}>
+                    <div style={{ textAlign:'center', paddingBottom:'80px' }}>
+                        <h2>How it works</h2>
+                    </div>
                     <div className='row' >
                         <div className='col-md-3'>
-                            <div style={{ textAlign:"center", marginBottom:"40px"  }}>
-                                <img style={{ height:"50px" }} src={One} />
-                            </div>
                             <div>
-                            <h4>Create Budget</h4>
-                            <p>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </p>
+                                <h3 style={{ marginBottom:'20px' }}>Create Budget</h3>
+                                <p>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </p>
                             </div>
                         </div>    
                         <div className='col-md-3'>
-                            <div style={{ textAlign:"center", marginBottom:"40px" }}>
-                                <img style={{ height:"50px" }} src={Two} />
-                            </div>
                             <div>
-                                <h4>Add Expenditures</h4>
+                                <h3 style={{ marginBottom:'20px' }}>Add Expenditures</h3>
                                 <p>
                                    Some quick example text to build on the card title and make up the bulk of
                                    the card's content.
@@ -160,11 +157,8 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='col-md-3'>
-                            <div style={{ textAlign:"center", marginBottom:"40px" }}>
-                                <img style={{ height:"50px" }} src={Three} />
-                            </div>
                             <div>
-                                <h4>Visualize Data</h4>
+                                <h3 style={{ marginBottom:'20px' }}>Visualize Data</h3>
                                 <p>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
@@ -172,11 +166,8 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='col-md-3'>
-                            <div style={{ textAlign:"center", marginBottom:"40px" }}>
-                                <img style={{ height:"50px" }} src={Four} />
-                            </div>
                             <div>
-                                <h4>Follow Tips</h4>
+                                <h3 style={{ marginBottom:'20px' }}>Follow Tips</h3>
                                 <p>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
