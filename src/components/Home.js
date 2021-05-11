@@ -139,6 +139,9 @@ const Home = () => {
                     </div>
                     <div className='row' >
                         <div className='col-md-3'>
+                            <div style={{ background:'#fff', width:'70px', height:'70px', borderRadius:'20px', marginBottom:'25px' }}>
+                                <h2 style={{ textAlign:'center', paddingTop:'15px', color:'#057C68' }} >01</h2>
+                            </div>
                             <div>
                                 <h3 style={{ marginBottom:'20px' }}>Create Budget</h3>
                                 <p>
@@ -148,6 +151,9 @@ const Home = () => {
                             </div>
                         </div>    
                         <div className='col-md-3'>
+                            <div style={{ background:'#fff', width:'70px', height:'70px', borderRadius:'20px', marginBottom:'25px' }}>
+                                <h2 style={{ textAlign:'center', paddingTop:'15px', color:'#057C68' }} >02</h2>
+                            </div>
                             <div>
                                 <h3 style={{ marginBottom:'20px' }}>Add Expenditures</h3>
                                 <p>
@@ -157,6 +163,9 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='col-md-3'>
+                            <div style={{ background:'#fff', width:'70px', height:'70px', borderRadius:'20px', marginBottom:'25px' }}>
+                                <h2 style={{ textAlign:'center', paddingTop:'15px' , color:'#057C68'}} >03</h2>
+                            </div>
                             <div>
                                 <h3 style={{ marginBottom:'20px' }}>Visualize Data</h3>
                                 <p>
@@ -166,6 +175,9 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='col-md-3'>
+                            <div style={{ background:'#fff', width:'70px', height:'70px', borderRadius:'20px', marginBottom:'25px' }}>
+                                <h2 style={{ textAlign:'center', paddingTop:'15px', color:'#057C68' }} >04</h2>
+                            </div>
                             <div>
                                 <h3 style={{ marginBottom:'20px' }}>Follow Tips</h3>
                                 <p>
