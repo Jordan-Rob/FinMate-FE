@@ -3,7 +3,7 @@ import pattern from '../static/patternpad.svg'
 import Lottie from 'lottie-web'
 import Animation from '../animations/drawkit-grape-animation-2-LOOP.json'
 import Bargraph from '../animations/18841-bar-graph.json'
-import LightPattern from '../static/patterns.svg'
+import LightPattern from '../static/patterns2.svg'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
