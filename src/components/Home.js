@@ -3,7 +3,7 @@ import pattern from '../static/patternpad.svg'
 import Lottie from 'lottie-web'
 import Animation from '../animations/drawkit-grape-animation-2-LOOP.json'
 import Bargraph from '../animations/18841-bar-graph.json'
-import LightPattern from '../static/patternlight2.svg'
+import LightPattern from '../static/patterns.svg'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
@@ -132,14 +132,14 @@ const Home = () => {
             <div style={{ height:'580px', backgroundImage:`url(${LightPattern})` }}>
                 <div className='container' style={{ paddingTop:'100px' }}>
                     <div style={{ textAlign:'center', paddingBottom:'80px' }}>
-                        <h2 style={{ color:'#057C68' }}>How it works</h2>
+                        <h2 style={{ color:'#fff' }}>How it works</h2>
                     </div>
                     <div className='row' >
                         <div className='col-md-3'>
                             <div style={{ background:'#fff', width:'70px', height:'70px', borderRadius:'20px', marginBottom:'25px' }}>
                                 <h2 style={{ textAlign:'center', paddingTop:'15px', color:'#057C68' }} >01</h2>
                             </div>
-                            <div>
+                            <div style={{ color:'#fff' }}>
                                 <h3 style={{ marginBottom:'20px' }}>Create Budget</h3>
                                 <p>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -151,7 +151,7 @@ const Home = () => {
                             <div style={{ background:'#fff', width:'70px', height:'70px', borderRadius:'20px', marginBottom:'25px' }}>
                                 <h2 style={{ textAlign:'center', paddingTop:'15px', color:'#057C68' }} >02</h2>
                             </div>
-                            <div>
+                            <div style={{ color:'#fff' }}>
                                 <h3 style={{ marginBottom:'20px' }}>Add Expenditures</h3>
                                 <p>
                                    Some quick example text to build on the card title and make up the bulk of
@@ -163,7 +163,7 @@ const Home = () => {
                             <div style={{ background:'#fff', width:'70px', height:'70px', borderRadius:'20px', marginBottom:'25px' }}>
                                 <h2 style={{ textAlign:'center', paddingTop:'15px' , color:'#057C68'}} >03</h2>
                             </div>
-                            <div>
+                            <div style={{ color:'#fff' }}>
                                 <h3 style={{ marginBottom:'20px' }}>Visualize Data</h3>
                                 <p>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -175,7 +175,7 @@ const Home = () => {
                             <div style={{ background:'#fff', width:'70px', height:'70px', borderRadius:'20px', marginBottom:'25px' }}>
                                 <h2 style={{ textAlign:'center', paddingTop:'15px', color:'#057C68' }} >04</h2>
                             </div>
-                            <div>
+                            <div style={{ color:'#fff' }}>
                                 <h3 style={{ marginBottom:'20px' }}>Follow Tips</h3>
                                 <p>
                                     Some quick example text to build on the card title and make up the bulk of
