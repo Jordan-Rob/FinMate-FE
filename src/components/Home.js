@@ -135,7 +135,7 @@ const Home = () => {
             <div style={{ height:'580px' }}>
                 <div className='container' style={{ paddingTop:'100px' }}>
                     <div style={{ textAlign:'center', paddingBottom:'80px' }}>
-                        <h2>How it works</h2>
+                        <h2 style={{ color:'#057C68' }}>How it works</h2>
                     </div>
                     <div className='row' >
                         <div className='col-md-3'>
