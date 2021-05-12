@@ -3,10 +3,7 @@ import pattern from '../static/patternpad.svg'
 import Lottie from 'lottie-web'
 import Animation from '../animations/drawkit-grape-animation-2-LOOP.json'
 import Bargraph from '../animations/18841-bar-graph.json'
-import One from '../static/1.svg'
-import Two from '../static/2.svg'
-import Three from '../static/3.svg'
-import Four from '../static/4.svg'
+import LightPattern from '../static/patternlight.svg'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
@@ -132,7 +129,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div style={{ height:'580px' }}>
+            <div style={{ height:'580px', backgroundImage:`url(${LightPattern})` }}>
                 <div className='container' style={{ paddingTop:'100px' }}>
                     <div style={{ textAlign:'center', paddingBottom:'80px' }}>
                         <h2 style={{ color:'#057C68' }}>How it works</h2>
