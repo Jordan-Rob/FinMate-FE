@@ -129,7 +129,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div style={{ height:'580px', backgroundImage:`url(${LightPattern})` }}>
+            <div style={{ height:'580px', backgroundImage:`url(${LightPattern})`, backgroundRepeat:'round' }}>
                 <div className='container' style={{ paddingTop:'100px' }}>
                     <div style={{ textAlign:'center', paddingBottom:'80px' }}>
                         <h2 style={{ color:'#fff' }}>How it works</h2>
